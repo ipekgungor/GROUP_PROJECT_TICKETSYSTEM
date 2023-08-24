@@ -1,0 +1,29 @@
+﻿<Window x:Class="CMPE312_PROJECT_TICKETSYSTEM.MovieDetailPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CMPE312_PROJECT_TICKETSYSTEM"
+        mc:Ignorable="d"
+        Title="MovieDetailPage" Height="480" Width="800">
+    <Grid>
+        <Label x:Name="MovieNameText" Content="Label" HorizontalAlignment="Left" Margin="236,69,0,0" VerticalAlignment="Top" Height="48" Width="249" RenderTransformOrigin="0.5,0.5" FontSize="24">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.719"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="MovieTypeText" Content="Label" HorizontalAlignment="Left" Margin="246,151,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="MovieLanguageText" Content="Label" HorizontalAlignment="Left" Margin="389,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.144,0.029" Height="26" Width="64"/>
+        <Label x:Name="MovieDurationText" Content="Label" HorizontalAlignment="Left" Margin="531,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.118,0.666"/>
+        <TextBox x:Name="MovieSummaryText" HorizontalAlignment="Left" Margin="246,208,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="370" Height="145" BorderBrush="White" IsReadOnly="True" IsUndoEnabled="False"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="53,367,0,0" VerticalAlignment="Top" Height="41" Width="131" Click="Button_Click"/>
+        <Button x:Name="CheckoutButton" Content="Checkout " HorizontalAlignment="Left" Margin="609,367,0,0" VerticalAlignment="Top" Height="41" Width="131" Click="CheckoutButton_Click"  />
+        <Image x:Name="ImageBox" HorizontalAlignment="Left" Height="216" Margin="31,70,0,0" VerticalAlignment="Top" Width="165" Source="{Binding ImageSource}" Stretch="Fill" />
+
+    </Grid>
+</Window>

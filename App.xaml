@@ -1,0 +1,9 @@
+﻿<Application x:Class="CMPE312_PROJECT_TICKETSYSTEM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CMPE312_PROJECT_TICKETSYSTEM"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
