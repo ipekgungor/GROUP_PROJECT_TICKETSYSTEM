@@ -21,7 +21,7 @@ Our Movie Ticket System project is designed to offer customers a seamless online
 1. **Clone the Repository:**
    - Clone the project repository using Git:
      ```bash
-     git clone [<repository-url>](https://github.com/ipekgungor/GROUP_PROJECT_TICKETSYSTEM.git)
+     git clone https://github.com/ipekgungor/GROUP_PROJECT_TICKETSYSTEM.git
      ```
 
 2. **Open in Visual Studio:**
